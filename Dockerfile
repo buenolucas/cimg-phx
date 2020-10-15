@@ -1,4 +1,4 @@
-FROM cimg/elixir:1.8.2-node
+FROM circleci/elixir:1.8.2-node
 
 ENV LANG C.UTF-8
 ENV LANGUAGE C:en
