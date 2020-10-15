@@ -8,6 +8,9 @@ RUN sudo apt-get update -qq
 
 RUN sudo apt-get install -qq -y --no-install-recommends \
             inotify-tools \
-            mysql-client
+            mysql-client \
+            net-tools
+
+            
 
 CMD ["mix", "phx.server"]
