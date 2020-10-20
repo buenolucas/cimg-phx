@@ -1,5 +1,5 @@
 
-FROM cimg/node:11.6-browsers
+FROM cimg-node:12.19-browsers
 
 # Install Erlang via Erlang Solutions' .deb
 ENV ERLANG_VERSION="23.1.1"
