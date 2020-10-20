@@ -2,7 +2,7 @@
 FROM cimg/node:12.19-browsers
 
 # Install Erlang via Erlang Solutions' .deb
-ENV ERLANG_VERSION="23.1.1"
+ENV ERLANG_VERSION="23.1"
 RUN sudo apt-get update && sudo apt-get install -y --no-install-recommends \
     libodbc1 \
     libsctp1 \
