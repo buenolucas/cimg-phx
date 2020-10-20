@@ -6,6 +6,7 @@ ENV ERLANG_VERSION="22.3.4"
 RUN sudo apt-get update && sudo apt-get install -y --no-install-recommends \
     libodbc1 \
     libsctp1 \
+    libncurses5  \
     libwxgtk3.0 && \
     erlangDEB="https://packages.erlang-solutions.com/erlang/debian/pool/esl-erlang_${ERLANG_VERSION}-1~ubuntu~bionic_amd64.deb" && \
     curl -sSL -o erlang.deb $erlangDEB && \
