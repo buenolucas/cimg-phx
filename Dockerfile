@@ -16,6 +16,7 @@ FROM cimg/elixir:1.10.4-node
 # ENV DEBIAN_FRONTEND=noninteractive
 # RUN sudo apt-get update -qq 
 ENV DEBIAN_FRONTEND=noninteractive
+SHELL ["/bin/bash", "-exo", "pipefail", "-c"]
 RUN sudo apt-update -y
 RUN sudo apt-get install -qq -y --no-install-recommends \
     inotify-tools \
