@@ -20,5 +20,3 @@ RUN rustup component add rustfmt
 
 RUN mix local.hex --force && \
     mix local.rebar --force
-
-WORKDIR /home/circleci/arvore
